@@ -24,10 +24,10 @@ def qft_builder(n):
         qc.swap(k, n-k-1)
     return qc
 
-n = 1
+n = 4
 qft = qft_builder(n)
 # state = Statevector.from_instruction(qft)
 # plot_state_city(state)
 # plt.show()
 
-qft.draw("latex", filename=f"qft_{n}.png")
+qft.draw("mpl", filename=f"fourier/images/qft_{n}.png")
