@@ -30,4 +30,4 @@ qft = qft_builder(n)
 # plot_state_city(state)
 # plt.show()
 
-qft.draw("mpl", filename=f"fourier/images/qft_{n}.png")
+qft.draw("mpl", filename=f"qft_{n}.png")
