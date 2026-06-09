@@ -34,7 +34,7 @@ def evolution(dt):
 # plt.show()
 
 print(evolution(np.pi))
-num_shots = 256
+num_shots = 64
 probs_of_zero = []
 x_axis = np.linspace(0, 2*np.pi, 48)
 for dt in x_axis:
